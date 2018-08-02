@@ -1,6 +1,6 @@
 # fibonacci-sequence-api
 
-To install the requirements
+To install the requirements:
     pip install -r requirements.txt
 
 Asumptions:
@@ -13,17 +13,17 @@ Logfile:
     Logfile will be stored in below location.
     fibonacci-sequence-api/Fibonacci.log
 
-To run the application
+To run the application:
     python main/Fibonacci_Rest.py
 
-To run the testcases
+To run the testcases:
     python -m pytest tests/test_Fibonacci.py
     
-To test in your browser
+To test in your browser:
     http://localhost:5000/fibonacci/<size>
     example, http://localhost:5000/fibonacci/10
 
-To test using curl command
+To test using curl command:
     curl -i -X GET "http://localhost:5000/fibonacci/10"
 
     invalid path with negative number or 0- returns 400
@@ -35,7 +35,7 @@ To test using curl command
     invalid path - returns 404
     curl -i -X GET "http://localhost:5000/fibonacci/abcd/abcd"
     
-To test using POSTMAN
+To test using POSTMAN:
 curl -X GET \
   http://127.0.0.1:5000/fibonacci/12 \
   -H 'Accept: application/json' \
