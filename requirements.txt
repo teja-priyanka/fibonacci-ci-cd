@@ -1,4 +1,0 @@
-pytest
-Flask
-flask-jsonpify
-flask-restful
