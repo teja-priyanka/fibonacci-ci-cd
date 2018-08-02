@@ -42,3 +42,13 @@ curl -X GET \
   -H 'Cache-Control: no-cache' \
   -H 'Postman-Token: 89b46c52-e5cb-4ba9-96a1-e7a208fdd801'
 
+Cloud:
+To test using cloud URI :
+curl -X GET \
+  https://priyanka-fibonacci.cfapps.io/fibonacci/122 \
+  -H 'Accept: application/json' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Postman-Token: a2868b8e-bd79-4ca9-bd14-a180eceb8c90'
+  
+To deploy app on pivotal cloud foundary:
+    cf push fibonacci  

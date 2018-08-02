@@ -1,0 +1,8 @@
+---
+applications:
+- name: fibnocci
+  memory: 512MB
+  disk_quota: 2GB
+  random-route: true
+  command: python Fibonacci_Rest.py
+  buildpack: python_buildpack
