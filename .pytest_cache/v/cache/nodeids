@@ -1,0 +1,17 @@
+[
+  "tests/test_Fibonacci.py::Testfibonacci::test_invalid_method_post_error_msg", 
+  "tests/test_Fibonacci.py::Testfibonacci::test_invalid_method_post_returns_405", 
+  "tests/test_Fibonacci.py::Testfibonacci::test_maxlimit_size_error_msg", 
+  "tests/test_Fibonacci.py::Testfibonacci::test_maxlimit_size_returns_400", 
+  "tests/test_Fibonacci.py::Testfibonacci::test_negative_size_error_msg", 
+  "tests/test_Fibonacci.py::Testfibonacci::test_negative_size_returns_400", 
+  "tests/test_Fibonacci.py::Testfibonacci::test_page_not_found_error_msg", 
+  "tests/test_Fibonacci.py::Testfibonacci::test_page_not_found_returns_404", 
+  "tests/test_Fibonacci.py::Testfibonacci::test_positive_int_as_size_responds_FibSeries", 
+  "tests/test_Fibonacci.py::Testfibonacci::test_positive_int_as_size_responds_FibSeries_of_length_size", 
+  "tests/test_Fibonacci.py::Testfibonacci::test_positive_int_as_size_returns_200", 
+  "tests/test_Fibonacci.py::Testfibonacci::test_string_as_size_error_msg", 
+  "tests/test_Fibonacci.py::Testfibonacci::test_string_as_size_returns_400", 
+  "tests/test_Fibonacci.py::Testfibonacci::test_zero_as_size_error_msg", 
+  "tests/test_Fibonacci.py::Testfibonacci::test_zero_as_size_returns_400"
+]

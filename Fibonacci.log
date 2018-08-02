@@ -1,0 +1,296 @@
+2018-08-01 23:32:08,898 - flask.app - INFO - Created flask app
+2018-08-01 23:32:08,974 - flask.app - INFO - size is 10001
+2018-08-01 23:32:08,974 - flask.app - ERROR - Size cannot be greater than 10000. Please pass a positive integer < 10000 - status code 400
+2018-08-01 23:32:08,976 - flask.app - INFO - size is 10001
+2018-08-01 23:32:08,976 - flask.app - ERROR - Size cannot be greater than 10000. Please pass a positive integer < 10000 - status code 400
+2018-08-01 23:32:08,978 - flask.app - INFO - size is -1
+2018-08-01 23:32:08,978 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:32:08,980 - flask.app - INFO - size is -1
+2018-08-01 23:32:08,980 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:32:08,982 - flask.app - ERROR - exception generated - Page not found - status code 404
+Traceback (most recent call last):
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-08-01 23:32:08,985 - flask.app - ERROR - exception generated - Page not found - status code 404
+Traceback (most recent call last):
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-08-01 23:32:08,988 - flask.app - INFO - size is 7
+2018-08-01 23:32:08,988 - root - INFO - Generating Fibonacci...
+2018-08-01 23:32:08,988 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8] - status code 200
+2018-08-01 23:32:08,993 - flask.app - INFO - size is 13
+2018-08-01 23:32:08,993 - root - INFO - Generating Fibonacci...
+2018-08-01 23:32:08,993 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144] - status code 200
+2018-08-01 23:32:08,998 - flask.app - INFO - size is 10
+2018-08-01 23:32:08,998 - root - INFO - Generating Fibonacci...
+2018-08-01 23:32:08,998 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34] - status code 200
+2018-08-01 23:32:09,000 - flask.app - INFO - size is abcd
+2018-08-01 23:32:09,000 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:32:09,002 - flask.app - INFO - size is abcd
+2018-08-01 23:32:09,002 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:32:09,004 - flask.app - INFO - size is 0
+2018-08-01 23:32:09,004 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:32:09,006 - flask.app - INFO - size is 0
+2018-08-01 23:32:09,006 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:34:57,807 - flask.app - INFO - Created flask app
+2018-08-01 23:34:57,830 - flask.app - INFO - size is 10001
+2018-08-01 23:34:57,830 - flask.app - ERROR - Size cannot be greater than 10000. Please pass a positive integer < 10000 - status code 400
+2018-08-01 23:34:57,832 - flask.app - INFO - size is 10001
+2018-08-01 23:34:57,832 - flask.app - ERROR - Size cannot be greater than 10000. Please pass a positive integer < 10000 - status code 400
+2018-08-01 23:34:57,834 - flask.app - INFO - size is -1
+2018-08-01 23:34:57,834 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:34:57,836 - flask.app - INFO - size is -1
+2018-08-01 23:34:57,836 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:34:57,838 - flask.app - ERROR - exception generated - Page not found - status code 404
+Traceback (most recent call last):
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-08-01 23:34:57,840 - flask.app - ERROR - exception generated - Page not found - status code 404
+Traceback (most recent call last):
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-08-01 23:34:57,842 - flask.app - INFO - size is 7
+2018-08-01 23:34:57,842 - root - INFO - Generating Fibonacci...
+2018-08-01 23:34:57,842 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8] - status code 200
+2018-08-01 23:34:57,895 - flask.app - INFO - size is 13
+2018-08-01 23:34:57,895 - root - INFO - Generating Fibonacci...
+2018-08-01 23:34:57,895 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144] - status code 200
+2018-08-01 23:34:57,900 - flask.app - INFO - size is 10
+2018-08-01 23:34:57,900 - root - INFO - Generating Fibonacci...
+2018-08-01 23:34:57,900 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34] - status code 200
+2018-08-01 23:34:57,902 - flask.app - INFO - size is abcd
+2018-08-01 23:34:57,902 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:34:57,904 - flask.app - INFO - size is abcd
+2018-08-01 23:34:57,904 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:34:57,906 - flask.app - INFO - size is 0
+2018-08-01 23:34:57,906 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:34:57,908 - flask.app - INFO - size is 0
+2018-08-01 23:34:57,908 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:40:21,522 - flask.app - INFO - Created flask app
+2018-08-01 23:40:21,547 - flask.app - INFO - size is 10001
+2018-08-01 23:40:21,547 - flask.app - ERROR - Size cannot be greater than 10000. Please pass a positive integer < 10000 - status code 400
+2018-08-01 23:40:21,550 - flask.app - INFO - size is 10001
+2018-08-01 23:40:21,550 - flask.app - ERROR - Size cannot be greater than 10000. Please pass a positive integer < 10000 - status code 400
+2018-08-01 23:40:21,552 - flask.app - INFO - size is -1
+2018-08-01 23:40:21,552 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:40:21,554 - flask.app - INFO - size is -1
+2018-08-01 23:40:21,554 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:40:21,556 - flask.app - ERROR - exception generated - Page not found - status code 404
+Traceback (most recent call last):
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-08-01 23:40:21,558 - flask.app - ERROR - exception generated - Page not found - status code 404
+Traceback (most recent call last):
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-08-01 23:40:21,560 - flask.app - INFO - size is 7
+2018-08-01 23:40:21,560 - root - INFO - Generating Fibonacci...
+2018-08-01 23:40:21,560 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8] - status code 200
+2018-08-01 23:40:21,562 - flask.app - INFO - size is 13
+2018-08-01 23:40:21,562 - root - INFO - Generating Fibonacci...
+2018-08-01 23:40:21,562 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144] - status code 200
+2018-08-01 23:40:21,565 - flask.app - INFO - size is 10
+2018-08-01 23:40:21,565 - root - INFO - Generating Fibonacci...
+2018-08-01 23:40:21,566 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34] - status code 200
+2018-08-01 23:40:21,569 - flask.app - INFO - size is abcd
+2018-08-01 23:40:21,569 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:40:21,571 - flask.app - INFO - size is abcd
+2018-08-01 23:40:21,571 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:40:21,573 - flask.app - INFO - size is 0
+2018-08-01 23:40:21,573 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:40:21,576 - flask.app - INFO - size is 0
+2018-08-01 23:40:21,576 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:40:35,070 - flask.app - INFO - Created flask app
+2018-08-01 23:40:45,926 - flask.app - INFO - size is 10
+2018-08-01 23:40:45,926 - root - INFO - Generating Fibonacci...
+2018-08-01 23:40:45,926 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34] - status code 200
+2018-08-01 23:41:20,904 - flask.app - INFO - size is 1
+2018-08-01 23:41:20,904 - root - INFO - Generating Fibonacci...
+2018-08-01 23:41:20,904 - flask.app - INFO - generated fibonacci sequence [0] - status code 200
+2018-08-01 23:41:27,453 - flask.app - INFO - size is 2
+2018-08-01 23:41:27,453 - root - INFO - Generating Fibonacci...
+2018-08-01 23:41:27,454 - flask.app - INFO - generated fibonacci sequence [0, 1] - status code 200
+2018-08-01 23:41:35,362 - flask.app - INFO - size is 1z
+2018-08-01 23:41:35,363 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:41:47,871 - flask.app - ERROR - exception generated - Page not found - status code 404
+Traceback (most recent call last):
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/priyankaadivikolanu/Priyanka_Practice/PythonPrograms/Fibonacci_Sequence/venv/lib/python2.7/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-08-01 23:45:06,575 - flask.app - INFO - size is 100
+2018-08-01 23:45:06,575 - root - INFO - Generating Fibonacci...
+2018-08-01 23:45:06,575 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229, 832040, 1346269, 2178309, 3524578, 5702887, 9227465, 14930352, 24157817, 39088169, 63245986, 102334155, 165580141, 267914296, 433494437, 701408733, 1134903170, 1836311903, 2971215073, 4807526976, 7778742049, 12586269025, 20365011074, 32951280099, 53316291173, 86267571272, 139583862445, 225851433717, 365435296162, 591286729879, 956722026041, 1548008755920, 2504730781961, 4052739537881, 6557470319842, 10610209857723, 17167680177565, 27777890035288, 44945570212853, 72723460248141, 117669030460994, 190392490709135, 308061521170129, 498454011879264, 806515533049393, 1304969544928657, 2111485077978050, 3416454622906707, 5527939700884757, 8944394323791464, 14472334024676221, 23416728348467685, 37889062373143906, 61305790721611591, 99194853094755497, 160500643816367088, 259695496911122585, 420196140727489673, 679891637638612258, 1100087778366101931, 1779979416004714189, 2880067194370816120, 4660046610375530309, 7540113804746346429, 12200160415121876738L, 19740274219868223167L, 31940434634990099905L, 51680708854858323072L, 83621143489848422977L, 135301852344706746049L, 218922995834555169026L] - status code 200
+2018-08-01 23:55:14,595 - flask.app - INFO - Created flask app
+2018-08-01 23:55:14,622 - flask.app - INFO - size is 10001
+2018-08-01 23:55:14,622 - flask.app - ERROR - Size cannot be greater than 10000. Please pass a positive integer < 10000 - status code 400
+2018-08-01 23:55:14,624 - flask.app - INFO - size is 10001
+2018-08-01 23:55:14,624 - flask.app - ERROR - Size cannot be greater than 10000. Please pass a positive integer < 10000 - status code 400
+2018-08-01 23:55:14,626 - flask.app - INFO - size is -1
+2018-08-01 23:55:14,626 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:55:14,628 - flask.app - INFO - size is -1
+2018-08-01 23:55:14,628 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:55:14,630 - flask.app - ERROR - exception generated - Page not found - status code 404
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-08-01 23:55:14,633 - flask.app - ERROR - exception generated - Page not found - status code 404
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-08-01 23:55:14,635 - flask.app - INFO - size is 7
+2018-08-01 23:55:14,636 - root - INFO - Generating Fibonacci...
+2018-08-01 23:55:14,636 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8] - status code 200
+2018-08-01 23:55:14,639 - flask.app - INFO - size is 13
+2018-08-01 23:55:14,639 - root - INFO - Generating Fibonacci...
+2018-08-01 23:55:14,639 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144] - status code 200
+2018-08-01 23:55:14,642 - flask.app - INFO - size is 10
+2018-08-01 23:55:14,642 - root - INFO - Generating Fibonacci...
+2018-08-01 23:55:14,642 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34] - status code 200
+2018-08-01 23:55:14,644 - flask.app - INFO - size is abcd
+2018-08-01 23:55:14,644 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:55:14,646 - flask.app - INFO - size is abcd
+2018-08-01 23:55:14,646 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:55:14,648 - flask.app - INFO - size is 0
+2018-08-01 23:55:14,649 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-01 23:55:14,651 - flask.app - INFO - size is 0
+2018-08-01 23:55:14,651 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-02 00:27:34,735 - flask.app - INFO - Created flask app
+2018-08-02 00:27:34,760 - flask.app - INFO - size is 10001
+2018-08-02 00:27:34,760 - flask.app - ERROR - Size cannot be greater than 10000. Please pass a positive integer < 10000 - status code 400
+2018-08-02 00:27:34,763 - flask.app - INFO - size is 10001
+2018-08-02 00:27:34,763 - flask.app - ERROR - Size cannot be greater than 10000. Please pass a positive integer < 10000 - status code 400
+2018-08-02 00:27:34,766 - flask.app - INFO - size is -1
+2018-08-02 00:27:34,766 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-02 00:27:34,768 - flask.app - INFO - size is -1
+2018-08-02 00:27:34,768 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-02 00:27:34,770 - flask.app - ERROR - exception generated - Page not found - status code 404
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-08-02 00:27:34,773 - flask.app - ERROR - exception generated - Page not found - status code 404
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-08-02 00:27:34,775 - flask.app - INFO - size is 7
+2018-08-02 00:27:34,775 - root - INFO - Generating Fibonacci...
+2018-08-02 00:27:34,775 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8] - status code 200
+2018-08-02 00:27:34,777 - flask.app - INFO - size is 13
+2018-08-02 00:27:34,777 - root - INFO - Generating Fibonacci...
+2018-08-02 00:27:34,778 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144] - status code 200
+2018-08-02 00:27:34,780 - flask.app - INFO - size is 10
+2018-08-02 00:27:34,780 - root - INFO - Generating Fibonacci...
+2018-08-02 00:27:34,780 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34] - status code 200
+2018-08-02 00:27:34,782 - flask.app - INFO - size is abcd
+2018-08-02 00:27:34,782 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-02 00:27:34,784 - flask.app - INFO - size is abcd
+2018-08-02 00:27:34,784 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-02 00:27:34,786 - flask.app - INFO - size is 0
+2018-08-02 00:27:34,786 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-02 00:27:34,788 - flask.app - INFO - size is 0
+2018-08-02 00:27:34,788 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-02 00:29:13,135 - flask.app - INFO - Created flask app
+2018-08-02 00:47:02,675 - flask.app - INFO - Created flask app
+2018-08-02 00:47:02,706 - flask.app - INFO - size is 10001
+2018-08-02 00:47:02,706 - flask.app - ERROR - Size cannot be greater than 10000. Please pass a positive integer < 10000 - status code 400
+2018-08-02 00:47:02,709 - flask.app - INFO - size is 10001
+2018-08-02 00:47:02,709 - flask.app - ERROR - Size cannot be greater than 10000. Please pass a positive integer < 10000 - status code 400
+2018-08-02 00:47:02,712 - flask.app - INFO - size is -1
+2018-08-02 00:47:02,712 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-02 00:47:02,714 - flask.app - INFO - size is -1
+2018-08-02 00:47:02,714 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-02 00:47:02,716 - flask.app - ERROR - exception generated - Page not found - status code 404
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-08-02 00:47:02,719 - flask.app - ERROR - exception generated - Page not found - status code 404
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-08-02 00:47:02,721 - flask.app - INFO - size is 7
+2018-08-02 00:47:02,721 - root - INFO - Generating fibonacci...
+2018-08-02 00:47:02,722 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8] - status code 200
+2018-08-02 00:47:02,724 - flask.app - INFO - size is 13
+2018-08-02 00:47:02,724 - root - INFO - Generating fibonacci...
+2018-08-02 00:47:02,724 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144] - status code 200
+2018-08-02 00:47:02,726 - flask.app - INFO - size is 10
+2018-08-02 00:47:02,726 - root - INFO - Generating fibonacci...
+2018-08-02 00:47:02,726 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34] - status code 200
+2018-08-02 00:47:02,729 - flask.app - INFO - size is abcd
+2018-08-02 00:47:02,729 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-02 00:47:02,731 - flask.app - INFO - size is abcd
+2018-08-02 00:47:02,731 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-02 00:47:02,734 - flask.app - INFO - size is 0
+2018-08-02 00:47:02,734 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-02 00:47:02,738 - flask.app - INFO - size is 0
+2018-08-02 00:47:02,739 - flask.app - ERROR - Invalid Size: Size must be a positive integer greater than 0 - status code 400
+2018-08-02 00:47:36,768 - flask.app - INFO - Created flask app
+2018-08-02 00:48:14,611 - flask.app - INFO - size is 12
+2018-08-02 00:48:14,612 - root - INFO - Generating fibonacci...
+2018-08-02 00:48:14,612 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89] - status code 200
+2018-08-02 00:48:22,729 - flask.app - INFO - size is 122
+2018-08-02 00:48:22,738 - root - INFO - Generating fibonacci...
+2018-08-02 00:48:22,738 - flask.app - INFO - generated fibonacci sequence [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229, 832040, 1346269, 2178309, 3524578, 5702887, 9227465, 14930352, 24157817, 39088169, 63245986, 102334155, 165580141, 267914296, 433494437, 701408733, 1134903170, 1836311903, 2971215073, 4807526976, 7778742049, 12586269025, 20365011074, 32951280099, 53316291173, 86267571272, 139583862445, 225851433717, 365435296162, 591286729879, 956722026041, 1548008755920, 2504730781961, 4052739537881, 6557470319842, 10610209857723, 17167680177565, 27777890035288, 44945570212853, 72723460248141, 117669030460994, 190392490709135, 308061521170129, 498454011879264, 806515533049393, 1304969544928657, 2111485077978050, 3416454622906707, 5527939700884757, 8944394323791464, 14472334024676221, 23416728348467685, 37889062373143906, 61305790721611591, 99194853094755497, 160500643816367088, 259695496911122585, 420196140727489673, 679891637638612258, 1100087778366101931, 1779979416004714189, 2880067194370816120, 4660046610375530309, 7540113804746346429, 12200160415121876738L, 19740274219868223167L, 31940434634990099905L, 51680708854858323072L, 83621143489848422977L, 135301852344706746049L, 218922995834555169026L, 354224848179261915075L, 573147844013817084101L, 927372692193078999176L, 1500520536206896083277L, 2427893228399975082453L, 3928413764606871165730L, 6356306993006846248183L, 10284720757613717413913L, 16641027750620563662096L, 26925748508234281076009L, 43566776258854844738105L, 70492524767089125814114L, 114059301025943970552219L, 184551825793033096366333L, 298611126818977066918552L, 483162952612010163284885L, 781774079430987230203437L, 1264937032042997393488322L, 2046711111473984623691759L, 3311648143516982017180081L, 5358359254990966640871840L, 8670007398507948658051921L] - status code 200
