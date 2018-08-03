@@ -1,6 +1,6 @@
 ---
 applications:
-- name: fibnocci
+- name: fibonacci-cicd
   memory: 512MB
   disk_quota: 2GB
   random-route: true
