@@ -13,7 +13,12 @@ from flask_restful import Api, Resource
 
 #Creating the Flask app
 app = Flask(__name__)
-port=int(os.getenv("VCAP_APP_PORT")
+
+port=os.getenv("VCAP_APP_PORT")
+if port is None:
+	port=5000
+else:
+	port=int(port)
 
 api=Api(app)
 app.logger.info('Created flask app')
@@ -66,4 +71,4 @@ def Unhandled_Exceptions(e):
 
 #starting the app	
 if __name__ == '__main__':
-	app.run('0.0.0.0',port=port)
+	app.run(host='0.0.0.0',port=port)
